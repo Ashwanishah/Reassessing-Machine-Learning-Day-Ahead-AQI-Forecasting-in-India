@@ -21,31 +21,35 @@ This repository contains the code, processed data and result files for our study
 ├── README.md
 ├── requirements.txt
 ├── LICENSE
-├── .gitignore
-├── CHOSSING_STA…_DISTANCE.ipynb     # station selection, distances and station map
+├── COMMITS.md                         # commit hashes, timestamps and messages
+├── CHOSSING_STATION_BASED _ON_DISTANCE.ipynb   # station selection, distances and station map
 ├── Fig1_station_map.png
-├── Utility_fun/                     # aqi_utils.py: AQI formula, scores, bootstrap, tests
-├── FINAL-MODEL-WORKING/             # source station: R K Puram, Delhi
-│   ├── DELHI_FINAL.ipynb
-│   ├── best_params.json             # raw Optuna result
-│   ├── final_params.json            # settings used (defaults kept where tuning did not help)
-│   ├── delhi_saved/
-│   ├── era5_delhi_rkpuram.csv
-│   ├── firms_punjab_haryana.csv
-│   ├── figures/
-│   └── *.csv                        # result tables
-├── ITO-DELHI-Same-region-validation/
-├── Ludhiana/
-├── Dehradun/
-├── Jodhpur/
-├── Bhubneshwar/                     # Patia, Bhubaneswar
-├── Guwahati/
-├── Benguluru/                       # Silk Board, Bengaluru
-├── summary/                         # transfer, similarity, level-free model
-└── DATASETS/                        # raw hourly CPCB pollutant files
+├── Utility_fun/                       # aqi_utils.py: AQI formula, scores, bootstrap, tests
+├── DATASETS/                          # raw hourly CPCB pollutant files
+├── Data_Other/                        # other input data
+├── XY_Bengaluru_Silk.csv              # Bengaluru feature matrix
+├── results/                           # early result files
+└── MODEL/
+    ├── FINAL-MODEL-WORKING/           # source station: R K Puram, Delhi
+    │   ├── DELHI_FINAL.ipynb
+    │   ├── best_params.json           # raw Optuna result
+    │   ├── final_params.json          # settings used (defaults kept where tuning did not help)
+    │   ├── delhi_saved/
+    │   ├── era5_delhi_rkpuram.csv
+    │   ├── firms_punjab_haryana.csv
+    │   ├── figures/
+    │   └── *.csv                      # result tables
+    ├── ITO-DELHI-Same-region-validation/
+    ├── Ludhiana/
+    ├── Dehradun/
+    ├── Jodhpur/
+    ├── Bhubneshwar/                   # Patia, Bhubaneswar
+    ├── Guwahati/
+    ├── Benguluru/                     # Silk Board, Bengaluru
+    └── summary/                       # transfer, similarity, level-free model
 ```
 
-Each station folder contains one notebook, its daily data (`daily_*.csv`, `X_*.csv`), its ERA5 weather file, its result tables and its figures.
+Each station folder inside `MODEL/` contains one notebook, its daily data (`daily_*.csv`, `X_*.csv`), its ERA5 weather file, its result tables and its figures.
 
 ## Environment
 
@@ -65,7 +69,7 @@ All data are public. The raw hourly CPCB files are included in `DATASETS/`.
 | Hourly pollutant concentrations | CPCB Air Quality Portal, https://airquality.cpcb.gov.in/ | Included in `DATASETS/`. To download again: select the station, 1 Jan 2023 – 30 Sep 2026, hourly, parameters PM2.5, PM10, NO2, SO2, NH3, CO, O3 |
 | Hourly weather (ERA5) | Open-Meteo Historical Weather API, https://open-meteo.com | Downloaded automatically by each notebook; the resulting `era5_*.csv` files are included |
 | Active fires (VIIRS S-NPP) | NASA FIRMS, https://firms.modaps.eosdis.nasa.gov/ | Included as `firms_punjab_haryana.csv`. To download again, set your own key: `export FIRMS_MAP_KEY=your_key` |
-| India state boundaries (`Admin2.*`, map only) | DataMeet India maps (`States/Admin2.*`), https://github.com/datameet/maps | Not included; download and place next to the station map notebook. Needed only for the station map |
+| India state boundaries (`Admin2.*`, map only) | DataMeet India maps (`States/Admin2.*`), https://github.com/datameet/maps | Not included; download and place next to `CHOSSING_STATION_BASED _ON_DISTANCE.ipynb`. Needed only for the station map |
 
 **Station data used:** R K Puram and ITO (Delhi), Punjab Agricultural University (Ludhiana), Doon University (Dehradun), Mandor (Jodhpur), Patia (Bhubaneswar), Railway Colony (Guwahati), Silk Board (Bengaluru).
 
@@ -77,20 +81,20 @@ To rerun:
 
 1. Update the data paths at the top of each notebook to your local folder.
 2. Run the notebooks in this order:
-   1. `FINAL-MODEL-WORKING/DELHI_FINAL.ipynb`: source station, model selection, tuning, leakage tests, persistence benchmark, weather sensitivity, seasons and fire (writes `final_params.json`, used by all other notebooks)
-   2. The seven station notebooks, in any order: ITO, Ludhiana, Dehradun, Jodhpur, Patia, Guwahati, Bengaluru
-   3. `summary/`: cross-station transfer, similarity vs distance, level-free model
-   4. `CHOSSING_STA…_DISTANCE.ipynb`: station map (optional)
+   1. `MODEL/FINAL-MODEL-WORKING/DELHI_FINAL.ipynb`: source station, model selection, tuning, leakage tests, persistence benchmark, weather sensitivity, seasons and fire (writes `final_params.json`, used by all other notebooks)
+   2. The seven station notebooks in `MODEL/`, in any order: ITO, Ludhiana, Dehradun, Jodhpur, Patia, Guwahati, Bengaluru
+   3. `MODEL/summary/`: cross-station transfer, similarity vs distance, level-free model
+   4. `CHOSSING_STATION_BASED _ON_DISTANCE.ipynb`: station map (optional)
 
 ### Where each result in the paper comes from
 
 | Paper | Notebook |
 |---|---|
-| Leakage table, boundary test | Each station notebook (leakage section) + `summary/` (pooled test) |
-| R K Puram vs persistence, weather sensitivity | `DELHI_FINAL.ipynb` |
+| Leakage table, boundary test | Each station notebook (leakage section) + `MODEL/summary/` (pooled test) |
+| R K Puram vs persistence, weather sensitivity | `MODEL/FINAL-MODEL-WORKING/DELHI_FINAL.ipynb` |
 | Own-station results (all stations) | Each station notebook (Part E) |
-| Transfer, level-free, similarity figure, ITO/Patia figure | `summary/` |
-| Seasons and fire | `DELHI_FINAL.ipynb` |
+| Transfer, level-free, similarity figure, ITO/Patia figure | `MODEL/summary/` |
+| Seasons and fire | `MODEL/FINAL-MODEL-WORKING/DELHI_FINAL.ipynb` |
 
 ## Checkpoints
 
