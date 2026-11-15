@@ -1,0 +1,20 @@
+# cached / model files
+*.joblib
+*.pkl
+models_*/
+catboost_info/
+firms_chunks/
+
+# large or raw data
+Admin2.*
+DATASETS/
+Fig1_station_map.svg
+
+# drafts and scratch
+*.docx
+Untitled*.ipynb
+
+# system
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
