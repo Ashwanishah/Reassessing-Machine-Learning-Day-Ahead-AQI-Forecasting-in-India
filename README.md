@@ -42,7 +42,7 @@ This repository contains the code, processed data and result files for our study
 ├── Guwahati/
 ├── Benguluru/                       # Silk Board, Bengaluru
 ├── summary/                         # transfer, similarity, level-free model
-└── paper/                           # CVPR-format report (LaTeX source and PDF)
+└── DATASETS/                        # raw hourly CPCB pollutant files
 ```
 
 Each station folder contains one notebook, its daily data (`daily_*.csv`, `X_*.csv`), its ERA5 weather file, its result tables and its figures.
@@ -58,14 +58,14 @@ pip install -r requirements.txt
 
 ## Data
 
-The raw hourly pollution files are not included because of their size. All data are public.
+All data are public. The raw hourly CPCB files are included in `DATASETS/`.
 
 | Data | Source | How to get it |
 |---|---|---|
-| Hourly pollutant concentrations | CPCB Air Quality Portal, https://airquality.cpcb.gov.in/ | Download manually: select the station, 1 Jan 2023 – 30 Sep 2026, hourly, parameters PM2.5, PM10, NO2, SO2, NH3, CO, O3 |
+| Hourly pollutant concentrations | CPCB Air Quality Portal, https://airquality.cpcb.gov.in/ | Included in `DATASETS/`. To download again: select the station, 1 Jan 2023 – 30 Sep 2026, hourly, parameters PM2.5, PM10, NO2, SO2, NH3, CO, O3 |
 | Hourly weather (ERA5) | Open-Meteo Historical Weather API, https://open-meteo.com | Downloaded automatically by each notebook; the resulting `era5_*.csv` files are included |
 | Active fires (VIIRS S-NPP) | NASA FIRMS, https://firms.modaps.eosdis.nasa.gov/ | Included as `firms_punjab_haryana.csv`. To download again, set your own key: `export FIRMS_MAP_KEY=your_key` |
-| India district boundaries (`Admin2.*`, map only) | [add source link] | Needed only for the station map notebook |
+| India state boundaries (`Admin2.*`, map only) | DataMeet India maps (`States/Admin2.*`), https://github.com/datameet/maps | Not included; download and place next to the station map notebook. Needed only for the station map |
 
 **Station data used:** R K Puram and ITO (Delhi), Punjab Agricultural University (Ludhiana), Doon University (Dehradun), Mandor (Jodhpur), Patia (Bhubaneswar), Railway Colony (Guwahati), Silk Board (Bengaluru).
 
@@ -75,7 +75,7 @@ The notebooks were run with fixed random seeds (0–4), and their outputs are sa
 
 To rerun:
 
-1. Download the CPCB data (see above) and update the data paths at the top of each notebook to your local folder.
+1. Update the data paths at the top of each notebook to your local folder.
 2. Run the notebooks in this order:
    1. `FINAL-MODEL-WORKING/DELHI_FINAL.ipynb`: source station, model selection, tuning, leakage tests, persistence benchmark, weather sensitivity, seasons and fire (writes `final_params.json`, used by all other notebooks)
    2. The seven station notebooks, in any order: ITO, Ludhiana, Dehradun, Jodhpur, Patia, Guwahati, Bengaluru
