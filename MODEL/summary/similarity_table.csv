@@ -1,0 +1,8 @@
+station,ring,distance_km,PM2.5_mean,PM2.5_level_diff,PM2.5_dist_diff,PM2.5_zero_skill,PM10_mean,PM10_level_diff,PM10_dist_diff,PM10_zero_skill
+Delhi_ITO,Ring 0 (< 50 km),9.0,103.9,0.13,14.4,0.13,160.7,0.274,50.8,0.039
+Dehradun,Ring 1 (150–600 km),206.9,40.8,1.066,77.6,-3.312,78.7,0.988,132.8,-6.423
+Punjab_Ludhiana,Ring 1 (150–600 km),290.1,60.9,0.664,57.4,-1.421,125.5,0.522,86.0,-0.565
+Rajesthan_jodhpur,Ring 1 (150–600 km),477.8,31.7,1.317,86.6,-4.298,98.2,0.768,113.3,-0.144
+bhubaneswar_PATIA,Ring 2 (> 1000 km),1263.2,49.4,0.873,68.9,-7.528,101.0,0.739,110.5,-2.304
+Guwahati,Ring 2 (> 1000 km),1464.2,69.4,0.534,49.0,-2.202,115.6,0.604,95.9,-0.009
+Bengluru_SILK,Ring 2 (> 1000 km),1740.4,33.5,1.263,84.9,-6.889,92.2,0.83,119.2,-0.077

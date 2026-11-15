@@ -1,0 +1,17 @@
+station,target,rank,input,share_%
+Punjab_Ludhiana,PM2.5,1,PM2.5_lag1,21.6
+Punjab_Ludhiana,PM2.5,2,doy_cos,13.1
+Punjab_Ludhiana,PM2.5,3,PM2.5_mean7,10.8
+Punjab_Ludhiana,PM2.5,4,PM10_lag1,10.4
+Punjab_Ludhiana,PM2.5,5,RF,4.6
+Punjab_Ludhiana,PM2.5,6,WD_cos,4.0
+Punjab_Ludhiana,PM2.5,7,PM10_mean7,3.9
+Punjab_Ludhiana,PM2.5,8,RH,3.8
+Punjab_Ludhiana,PM10,1,PM10_lag1,24.3
+Punjab_Ludhiana,PM10,2,PM10_mean7,14.4
+Punjab_Ludhiana,PM10,3,PM2.5_lag1,10.3
+Punjab_Ludhiana,PM10,4,doy_cos,6.3
+Punjab_Ludhiana,PM10,5,RF,5.2
+Punjab_Ludhiana,PM10,6,PM2.5_mean7,4.1
+Punjab_Ludhiana,PM10,7,RH,3.5
+Punjab_Ludhiana,PM10,8,WD_cos,3.3

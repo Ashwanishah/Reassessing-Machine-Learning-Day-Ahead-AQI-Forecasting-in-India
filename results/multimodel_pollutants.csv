@@ -1,0 +1,57 @@
+setup,model,pollutant,R2,MAE,RMSE,skill_vs_pers
+Weather only,Ridge (linear),PM2.5,0.527,43.163,69.939,0.054
+Weather only,Ridge (linear),PM10,0.454,67.091,97.683,0.079
+Weather only,Ridge (linear),NO2,0.288,16.121,22.4,-0.449
+Weather only,Ridge (linear),SO2,-0.218,11.437,17.714,-0.21
+Weather only,Ridge (linear),CO,0.418,0.63,0.974,0.267
+Weather only,Ridge (linear),OZONE (flagged),0.315,15.818,25.898,-1.27
+Weather only,Ridge (linear),NH3,0.181,7.137,9.817,-0.223
+Weather only,Random Forest,PM2.5,0.655,37.523,59.732,0.31
+Weather only,Random Forest,PM10,0.552,61.788,88.514,0.243
+Weather only,Random Forest,NO2,0.338,15.366,21.607,-0.349
+Weather only,Random Forest,SO2,-0.141,10.947,17.144,-0.133
+Weather only,Random Forest,CO,0.293,0.659,1.074,0.109
+Weather only,Random Forest,OZONE (flagged),0.234,16.172,27.387,-1.539
+Weather only,Random Forest,NH3,0.155,7.152,9.969,-0.262
+Weather only,Gradient Boosting,PM2.5,0.646,37.898,60.45,0.293
+Weather only,Gradient Boosting,PM10,0.52,64.474,91.566,0.19
+Weather only,Gradient Boosting,NO2,0.059,18.728,25.748,-0.915
+Weather only,Gradient Boosting,SO2,-0.203,11.418,17.6,-0.194
+Weather only,Gradient Boosting,CO,0.402,0.631,0.987,0.247
+Weather only,Gradient Boosting,OZONE (flagged),-0.015,18.059,31.534,-2.366
+Weather only,Gradient Boosting,NH3,0.058,7.68,10.528,-0.407
+Weather only,LightGBM,PM2.5,0.658,37.395,59.437,0.317
+Weather only,LightGBM,PM10,0.534,62.82,90.31,0.212
+Weather only,LightGBM,NO2,0.115,18.148,24.98,-0.803
+Weather only,LightGBM,SO2,-0.172,11.188,17.372,-0.163
+Weather only,LightGBM,CO,0.404,0.627,0.986,0.249
+Weather only,LightGBM,OZONE (flagged),0.07,17.642,30.177,-2.082
+Weather only,LightGBM,NH3,0.029,7.79,10.69,-0.451
+Day-ahead,Ridge (linear),PM2.5,0.587,38.126,65.325,0.175
+Day-ahead,Ridge (linear),PM10,0.569,58.46,86.811,0.272
+Day-ahead,Ridge (linear),NO2,0.493,13.644,18.896,-0.031
+Day-ahead,Ridge (linear),SO2,-0.92,9.572,22.241,-0.907
+Day-ahead,Ridge (linear),CO,0.526,0.581,0.879,0.403
+Day-ahead,Ridge (linear),OZONE (flagged),0.161,16.744,28.666,-1.781
+Day-ahead,Ridge (linear),NH3,-0.062,5.515,11.179,-0.586
+Day-ahead,Random Forest,PM2.5,0.68,33.776,57.519,0.36
+Day-ahead,Random Forest,PM10,0.613,55.039,82.304,0.346
+Day-ahead,Random Forest,NO2,0.622,11.392,16.32,0.231
+Day-ahead,Random Forest,SO2,0.229,8.494,14.096,0.234
+Day-ahead,Random Forest,CO,0.509,0.56,0.894,0.382
+Day-ahead,Random Forest,OZONE (flagged),0.196,16.198,28.065,-1.666
+Day-ahead,Random Forest,NH3,0.507,4.59,7.617,0.264
+Day-ahead,Gradient Boosting,PM2.5,0.7,33.798,55.667,0.401
+Day-ahead,Gradient Boosting,PM10,0.618,55.293,81.694,0.356
+Day-ahead,Gradient Boosting,NO2,0.552,12.791,17.768,0.088
+Day-ahead,Gradient Boosting,SO2,0.195,8.807,14.403,0.2
+Day-ahead,Gradient Boosting,CO,0.548,0.555,0.858,0.43
+Day-ahead,Gradient Boosting,OZONE (flagged),0.186,16.487,28.238,-1.699
+Day-ahead,Gradient Boosting,NH3,0.479,4.976,7.825,0.223
+Day-ahead,LightGBM,PM2.5,0.707,33.364,55.046,0.414
+Day-ahead,LightGBM,PM10,0.627,54.487,80.788,0.37
+Day-ahead,LightGBM,NO2,0.523,13.308,18.344,0.028
+Day-ahead,LightGBM,SO2,0.203,8.747,14.332,0.208
+Day-ahead,LightGBM,CO,0.553,0.55,0.854,0.436
+Day-ahead,LightGBM,OZONE (flagged),0.185,16.468,28.255,-1.702
+Day-ahead,LightGBM,NH3,0.45,5.104,8.043,0.179

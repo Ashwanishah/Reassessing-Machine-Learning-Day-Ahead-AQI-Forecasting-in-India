@@ -1,0 +1,17 @@
+station,target,rank,input,share_%
+Guwahati,PM2.5,1,PM10_lag1,19.8
+Guwahati,PM2.5,2,doy_cos,14.2
+Guwahati,PM2.5,3,PM2.5_lag1,11.6
+Guwahati,PM2.5,4,cloud_cover,9.0
+Guwahati,PM2.5,5,surface_pressure,8.1
+Guwahati,PM2.5,6,RH,3.4
+Guwahati,PM2.5,7,RF,3.4
+Guwahati,PM2.5,8,PM10_mean7,3.3
+Guwahati,PM10,1,PM10_lag1,26.6
+Guwahati,PM10,2,cloud_cover,17.1
+Guwahati,PM10,3,RF,6.7
+Guwahati,PM10,4,doy_cos,4.8
+Guwahati,PM10,5,RH,4.7
+Guwahati,PM10,6,PM2.5_lag1,4.6
+Guwahati,PM10,7,CO_lag1,4.4
+Guwahati,PM10,8,PM10_mean7,4.0

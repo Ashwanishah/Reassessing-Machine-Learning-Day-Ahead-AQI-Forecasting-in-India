@@ -1,0 +1,7 @@
+,,days,exact_acc,within_1,macro_F1,AQI_MAE,recall_Poor+
+Whole 2025,Persistence,342.0,0.646,0.971,0.511,34.7,0.869
+Whole 2025,"Day-ahead, no fire",342.0,0.705,0.991,0.665,29.1,0.882
+Whole 2025,Day-ahead + fire,342.0,0.711,0.994,0.668,28.9,0.882
+Stubble season (Oct 15 – Nov 30),Persistence,45.0,0.6,1.0,0.582,34.4,1.0
+Stubble season (Oct 15 – Nov 30),"Day-ahead, no fire",45.0,0.578,1.0,0.313,34.3,1.0
+Stubble season (Oct 15 – Nov 30),Day-ahead + fire,45.0,0.6,1.0,0.324,34.1,1.0

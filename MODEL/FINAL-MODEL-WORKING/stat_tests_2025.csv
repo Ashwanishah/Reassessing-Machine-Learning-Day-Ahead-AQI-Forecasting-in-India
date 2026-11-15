@@ -1,0 +1,10 @@
+model,test,detail,statistic,p_value,p_Holm,significant (p_Holm < 0.05)
+ExtraTrees,McNemar (AQI category),"model-only right 48, persistence-only right 29",4.21,0.0402,0.161,False
+ExtraTrees,Diebold–Mariano (PM2.5),DM > 0 means model better,2.93,0.0034,0.0271,True
+ExtraTrees,Diebold–Mariano (PM10),DM > 0 means model better,3.84,0.0001,0.0011,True
+LightGBM,McNemar (AQI category),"model-only right 56, persistence-only right 39",2.69,0.1007,0.2014,False
+LightGBM,Diebold–Mariano (PM2.5),DM > 0 means model better,1.59,0.1109,0.2014,False
+LightGBM,Diebold–Mariano (PM10),DM > 0 means model better,2.23,0.026,0.1317,False
+HistGB,McNemar (AQI category),"model-only right 55, persistence-only right 36",3.56,0.0592,0.1775,False
+HistGB,Diebold–Mariano (PM2.5),DM > 0 means model better,2.71,0.0068,0.0474,True
+HistGB,Diebold–Mariano (PM10),DM > 0 means model better,2.29,0.022,0.1317,False

@@ -1,0 +1,8 @@
+,days,exact_acc,within_1,macro_F1,AQI_MAE,recall_Poor+
+Persistence,260.0,0.665,0.969,0.507,33.6,0.837
+A. trained to 2024 | Random Forest,260.0,0.692,0.985,0.627,27.0,0.744
+A. trained to 2024 | LightGBM,260.0,0.665,0.985,0.472,29.7,0.744
+A. trained to 2024 | Ridge (linear),260.0,0.631,0.969,0.505,32.9,0.709
+B. retrained to 2025 | Random Forest,260.0,0.712,0.985,0.659,26.8,0.744
+B. retrained to 2025 | LightGBM,260.0,0.735,0.981,0.575,27.5,0.767
+B. retrained to 2025 | Ridge (linear),260.0,0.638,0.946,0.522,38.2,0.826

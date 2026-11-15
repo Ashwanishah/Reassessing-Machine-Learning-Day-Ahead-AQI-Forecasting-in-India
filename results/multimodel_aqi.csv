@@ -1,0 +1,11 @@
+,days,exact_acc,within_1,macro_F1,AQI_MAE,recall_Poor+
+Persistence,342.0,0.646,0.971,0.511,34.7,0.869
+Climatology,342.0,0.462,0.956,0.371,49.0,0.83
+Weather only | Ridge (linear),342.0,0.564,0.947,0.448,45.2,0.863
+Weather only | Random Forest,342.0,0.646,0.977,0.573,35.6,0.824
+Weather only | Gradient Boosting,342.0,0.637,0.977,0.595,37.2,0.869
+Weather only | LightGBM,342.0,0.629,0.974,0.571,36.4,0.837
+Day-ahead | Ridge (linear),342.0,0.69,0.982,0.613,33.3,0.908
+Day-ahead | Random Forest,342.0,0.705,0.991,0.665,29.1,0.882
+Day-ahead | Gradient Boosting,342.0,0.702,0.991,0.627,29.4,0.837
+Day-ahead | LightGBM,342.0,0.696,0.991,0.625,29.6,0.837

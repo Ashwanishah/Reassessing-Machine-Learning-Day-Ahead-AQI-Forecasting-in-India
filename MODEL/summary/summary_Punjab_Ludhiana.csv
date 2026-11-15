@@ -1,0 +1,2 @@
+station,lat,lon,ring,distance_km,pollutants_used,dropped,test_days,persistence_acc,persistence_F1,leaky_acc,honest_acc,own_acc,own_F1,own_PM25_skill,zero_acc,zero_F1,zero_PM25_skill,few1_acc,few1_F1,few1_PM25_skill,few2_acc,few2_F1,few2_PM25_skill,few3_acc,few3_F1,few3_PM25_skill
+Punjab_Ludhiana,30.9,75.85,Ring 1 (150–600 km),290.1,"PM2.5, PM10, SO2, CO","NO, NO2, NH3",355,0.724,0.468,0.977,0.775,0.75,0.4,-0.072,0.562,0.383,-1.421,0.716,0.515,-0.118,0.731,0.518,-0.053,0.76,0.537,-0.048

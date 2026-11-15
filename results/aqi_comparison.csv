@@ -1,0 +1,4 @@
+,days,exact_acc,within_1,macro_F1,AQI_MAE,recall_Poor+
+Persistence (today=tomorrow),342.0,0.646,0.971,0.511,34.7,0.869
+Goal B: weather only,342.0,0.646,0.977,0.573,35.6,0.824
+Goal A: day-ahead forecast,342.0,0.705,0.991,0.665,29.1,0.882

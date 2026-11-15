@@ -1,0 +1,4 @@
+period,days,persistence_acc,acc without fires,PM2.5 skill without fires,acc with fires,PM2.5 skill with fires,fire effect on acc (pts),fire effect on PM2.5 skill
+Stubble window 2025,45,0.6,0.653,-0.015,0.658,-0.003,0.5,0.012
+Stubble window 2024,42,0.69,0.614,0.072,0.633,0.091,1.9,0.019
+All of 2025,342,0.655,0.711,0.35,0.725,0.352,1.4,0.002

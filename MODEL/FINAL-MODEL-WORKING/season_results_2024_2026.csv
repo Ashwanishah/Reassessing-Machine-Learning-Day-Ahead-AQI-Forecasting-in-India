@@ -1,0 +1,14 @@
+test,season,days,Persistence_acc,Lasso_acc,ExtraTrees_acc,LightGBM_acc,HistGB_acc,trees_gain_pts,trees_PM2.5_skill
+2024 (seasonal rounds),Winter (Dec–Feb),91,0.648,0.648,0.593,0.637,0.648,-2.2,0.127
+2024 (seasonal rounds),Summer (Mar–May),90,0.644,0.578,0.596,0.687,0.667,0.6,0.19
+2024 (seasonal rounds),Monsoon (Jun–Sep),117,0.641,0.667,0.658,0.634,0.667,1.2,0.277
+2024 (seasonal rounds),Post-monsoon (Oct–Nov),56,0.714,0.714,0.668,0.629,0.607,-7.9,0.021
+2024 (seasonal rounds),Stubble (15 Oct–30 Nov),42,0.69,0.69,0.614,0.576,0.548,-11.1,0.027
+2025,Winter (Dec–Feb),90,0.589,0.644,0.656,0.702,0.711,10.1,0.449
+2025,Summer (Mar–May),89,0.674,0.652,0.67,0.663,0.663,-0.9,0.409
+2025,Monsoon (Jun–Sep),106,0.717,0.783,0.788,0.764,0.755,5.2,0.178
+2025,Post-monsoon (Oct–Nov),57,0.614,0.579,0.719,0.691,0.702,9.0,-0.062
+2025,Stubble (15 Oct–30 Nov),45,0.6,0.556,0.653,0.631,0.667,5.0,-0.091
+2026 (Jan–Sep),Winter (Dec–Feb),59,0.61,0.695,0.773,0.722,0.746,13.7,0.43
+2026 (Jan–Sep),Summer (Mar–May),88,0.625,0.67,0.677,0.657,0.705,5.5,0.247
+2026 (Jan–Sep),Monsoon (Jun–Sep),113,0.726,0.761,0.749,0.752,0.788,3.7,0.136

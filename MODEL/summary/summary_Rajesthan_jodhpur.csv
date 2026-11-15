@@ -1,0 +1,2 @@
+station,lat,lon,ring,distance_km,pollutants_used,dropped,test_days,persistence_acc,persistence_F1,leaky_acc,honest_acc,own_acc,own_F1,own_PM25_skill,zero_acc,zero_F1,zero_PM25_skill,few1_acc,few1_F1,few1_PM25_skill,few2_acc,few2_F1,few2_PM25_skill,few3_acc,few3_F1,few3_PM25_skill
+Rajesthan_jodhpur,26.3535,73.0331,Ring 1 (150–600 km),477.8,"PM2.5, PM10, NO2, SO2, NH3, CO",,338,0.689,0.515,0.97,0.701,0.662,0.488,0.102,0.516,0.333,-4.298,0.555,0.305,-2.556,0.534,0.278,-2.131,0.616,0.329,-0.32

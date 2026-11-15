@@ -1,0 +1,13 @@
+input,mean_abs_SHAP,share_%,direction,effect_when_high_%,effect_when_low_%
+PM2.5_lag1,0.155,20.1,higher → higher forecast,26.6,-21.1
+PM2.5_mean7,0.125,16.2,higher → higher forecast,19.9,-13.2
+doy_cos,0.12,15.6,higher → higher forecast,19.8,-11.1
+wind_speed_10m,0.049,6.3,higher → lower forecast,-9.5,4.5
+PM10_lag1,0.042,5.5,higher → higher forecast,6.1,-7.0
+PM2.5_lag2,0.034,4.4,higher → higher forecast,5.9,-4.0
+surface_pressure,0.028,3.7,higher → higher forecast,3.4,-3.3
+cloud_cover,0.023,3.0,higher → lower forecast,-2.4,2.7
+PM2.5_lag3,0.02,2.6,higher → higher forecast,3.1,-1.9
+PM10_mean7,0.019,2.4,higher → higher forecast,2.6,-3.4
+RH,0.018,2.3,higher → lower forecast,-3.4,1.3
+doy_sin,0.015,1.9,higher → lower forecast,-1.3,1.5

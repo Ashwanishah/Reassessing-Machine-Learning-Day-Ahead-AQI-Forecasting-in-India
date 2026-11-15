@@ -1,0 +1,2 @@
+station,lat,lon,ring,distance_km,pollutants_used,dropped,test_days,persistence_acc,persistence_F1,leaky_acc,honest_acc,own_acc,own_F1,own_PM25_skill,zero_acc,zero_F1,zero_PM25_skill,few1_acc,few1_F1,few1_PM25_skill,few2_acc,few2_F1,few2_PM25_skill,few3_acc,few3_F1,few3_PM25_skill
+Guwahati,26.181742,91.78063,Ring 2 (> 1000 km),1464.2,"PM2.5, PM10, CO","SO2, NO2, NH3",231,0.636,0.648,0.926,0.684,0.645,0.658,0.227,0.454,0.387,-2.202,0.519,0.467,-0.953,0.543,0.489,-0.701,0.558,0.51,-0.6

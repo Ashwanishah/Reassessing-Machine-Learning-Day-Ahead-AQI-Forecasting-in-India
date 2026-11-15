@@ -1,0 +1,23 @@
+{
+  "Lasso": {
+    "alpha": 0.00971615716280829
+  },
+  "ExtraTrees": {},
+  "LightGBM": {
+    "n_estimators": 700,
+    "learning_rate": 0.03984726267151497,
+    "num_leaves": 51,
+    "min_child_samples": 10,
+    "subsample": 0.8559684085310095,
+    "colsample_bytree": 0.5716766437045232,
+    "reg_lambda": 6.007249475906201,
+    "subsample_freq": 1
+  },
+  "HistGB": {
+    "max_iter": 200,
+    "learning_rate": 0.04915707009260522,
+    "max_leaf_nodes": 29,
+    "min_samples_leaf": 10,
+    "l2_regularization": 0.007914805810656352
+  }
+}

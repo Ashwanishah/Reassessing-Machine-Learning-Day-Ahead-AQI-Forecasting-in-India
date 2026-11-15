@@ -1,0 +1,13 @@
+input,mean_abs_SHAP,share_%,direction,effect_when_high_%,effect_when_low_%
+doy_cos,0.299,40.2,higher → higher forecast,56.0,-26.1
+surface_pressure,0.092,12.4,higher → higher forecast,13.3,-9.3
+wind_speed_10m,0.071,9.5,higher → lower forecast,-12.8,6.9
+month,0.053,7.1,higher → higher forecast,7.1,-3.9
+cloud_cover,0.047,6.3,higher → lower forecast,-5.3,5.5
+RH,0.045,6.1,higher → lower forecast,-7.9,3.7
+doy_sin,0.042,5.7,higher → lower forecast,-2.5,1.9
+AT,0.031,4.1,higher → lower forecast,0.4,1.6
+SR,0.02,2.7,higher → higher forecast,0.2,-1.8
+RF,0.014,1.9,higher → lower forecast,-3.3,0.7
+WD_sin,0.013,1.8,higher → lower forecast,-1.2,-0.2
+weekday,0.009,1.1,higher → lower forecast,-0.9,0.4

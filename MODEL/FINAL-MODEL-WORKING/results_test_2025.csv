@@ -1,0 +1,7 @@
+model,days,accuracy,macro_F1,PM2.5_skill,PM10_skill
+Persistence,342,0.655,0.517,0.0,0.0
+Climatology,342,0.459,0.354,-0.419,-0.753
+Lasso,342,0.678,0.516,0.005,-0.057
+ExtraTrees,342,0.711,0.664,0.373,0.348
+LightGBM,342,0.705,0.629,0.227,0.213
+HistGB,342,0.711,0.633,0.332,0.191

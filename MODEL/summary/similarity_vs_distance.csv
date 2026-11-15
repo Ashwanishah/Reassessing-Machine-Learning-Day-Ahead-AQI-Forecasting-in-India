@@ -1,0 +1,7 @@
+pollutant,predictor,spearman_rho,p_value
+PM2.5,Distance (km),-0.64,0.119
+PM2.5,Level difference,-0.71,0.071
+PM2.5,Distribution distance,-0.71,0.071
+PM10,Distance (km),0.11,0.819
+PM10,Level difference,-0.57,0.18
+PM10,Distribution distance,-0.57,0.18

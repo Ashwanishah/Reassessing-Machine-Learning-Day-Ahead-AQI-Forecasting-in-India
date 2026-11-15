@@ -1,0 +1,2 @@
+station,lat,lon,ring,distance_km,pollutants_used,dropped,test_days,persistence_acc,persistence_F1,leaky_acc,honest_acc,own_acc,own_F1,own_PM25_skill,zero_acc,zero_F1,zero_PM25_skill,few1_acc,few1_F1,few1_PM25_skill,few2_acc,few2_F1,few2_PM25_skill,few3_acc,few3_F1,few3_PM25_skill
+Dehradun,30.2673878,78.0449364,Ring 1 (150–600 km),206.9,"PM2.5, PM10, NO2, CO",SO2,294,0.776,0.586,0.973,0.765,0.768,0.559,0.079,0.335,0.301,-3.312,0.391,0.19,-3.36,0.441,0.362,-2.735,0.468,0.342,-1.967

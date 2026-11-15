@@ -1,0 +1,17 @@
+station,target,rank,input,share_%
+Dehradun,PM2.5,1,PM2.5_lag1,31.1
+Dehradun,PM2.5,2,PM10_lag1,14.0
+Dehradun,PM2.5,3,RF,8.7
+Dehradun,PM2.5,4,PM2.5_lag2,5.8
+Dehradun,PM2.5,5,doy_cos,5.7
+Dehradun,PM2.5,6,cloud_cover,5.6
+Dehradun,PM2.5,7,PM2.5_mean7,5.4
+Dehradun,PM2.5,8,PM2.5_lag3,2.7
+Dehradun,PM10,1,PM10_lag1,27.9
+Dehradun,PM10,2,RF,14.4
+Dehradun,PM10,3,PM10_mean7,8.4
+Dehradun,PM10,4,cloud_cover,8.1
+Dehradun,PM10,5,PM2.5_lag1,7.1
+Dehradun,PM10,6,PM10_lag2,6.0
+Dehradun,PM10,7,month,3.5
+Dehradun,PM10,8,doy_sin,3.3

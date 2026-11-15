@@ -1,0 +1,6 @@
+pollutant,Delhi only (0 months),Delhi + 1 month Patia,Delhi + 3 months Patia,"Patia only, 1 month","Patia only, 3 months",Patia full local (14 months)
+PM2.5,-0.971,-0.841,0.073,-1.573,0.039,0.163
+PM10,-0.303,-0.308,0.23,-0.401,0.071,0.249
+NO2,0.229,0.225,0.225,-0.279,0.04,0.08
+SO2,0.21,0.317,0.367,0.281,0.334,0.395
+NH3,-0.583,-0.673,-0.819,-3.221,-3.848,-2.256

@@ -1,0 +1,15 @@
+setup,pollutant,chronological,random,random_std,inflation (random - chrono)
+A. day-ahead,CO,0.509,0.609,0.005,0.099
+A. day-ahead,NH3,0.504,0.614,0.024,0.11
+A. day-ahead,NO2,0.617,0.614,0.009,-0.003
+A. day-ahead,OZONE (flagged),0.195,0.74,0.008,0.545
+A. day-ahead,PM10,0.618,0.65,0.005,0.032
+A. day-ahead,PM2.5,0.684,0.7,0.009,0.016
+A. day-ahead,SO2,0.228,0.392,0.03,0.164
+B. weather only,CO,0.307,0.634,0.006,0.327
+B. weather only,NH3,0.147,0.565,0.024,0.418
+B. weather only,NO2,0.345,0.537,0.006,0.191
+B. weather only,OZONE (flagged),0.237,0.733,0.008,0.496
+B. weather only,PM10,0.553,0.647,0.018,0.094
+B. weather only,PM2.5,0.658,0.696,0.014,0.038
+B. weather only,SO2,-0.128,0.305,0.014,0.433

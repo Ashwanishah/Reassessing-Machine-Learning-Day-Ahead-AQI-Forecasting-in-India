@@ -1,0 +1,5 @@
+season,days,exact_acc,AQI_MAE
+Monsoon,113,0.717,19.64
+Post-Monsoon,59,0.441,58.038
+Summer,90,0.622,42.035
+Winter,90,0.711,33.566

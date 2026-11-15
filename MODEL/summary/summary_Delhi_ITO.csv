@@ -1,0 +1,2 @@
+station,lat,lon,ring,distance_km,pollutants_used,dropped,test_days,persistence_acc,persistence_F1,leaky_acc,honest_acc,own_acc,own_F1,own_PM25_skill,zero_acc,zero_F1,zero_PM25_skill,few1_acc,few1_F1,few1_PM25_skill,few2_acc,few2_F1,few2_PM25_skill,few3_acc,few3_F1,few3_PM25_skill
+Delhi_ITO,28.6286,77.241,Ring 0 (< 50 km),9.0,"PM2.5, PM10, SO2, CO, OZONE","NO2, NH3, NO, NOX, BENZENE, TOLUENE",338,0.657,0.547,0.95,0.695,0.686,0.498,0.035,0.705,0.59,0.13,0.707,0.615,0.158,0.711,0.596,0.137,0.706,0.572,0.14

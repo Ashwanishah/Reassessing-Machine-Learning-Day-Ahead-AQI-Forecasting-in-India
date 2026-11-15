@@ -1,0 +1,2 @@
+station,ring,distance_km,pollutants_used,dropped,test_days,persistence_acc,persistence_F1,leaky_acc,honest_acc,own_acc,own_F1,own_PM25_skill,zero_acc,zero_F1,zero_PM25_skill,few1_acc,few1_F1,few1_PM25_skill,few2_acc,few2_F1,few2_PM25_skill,few3_acc,few3_F1,few3_PM25_skill
+Bengluru_SILK,Ring 1 (Different city),1000,"PM2.5, PM10, CO","NO, NO2, NH3, SO2, BENZENE, TOLUENE",205,0.702,0.584,0.946,0.58,0.635,0.49,0.095,0.626,0.387,-6.889,0.579,0.392,-0.554,0.569,0.429,-0.048,0.609,0.483,0.068

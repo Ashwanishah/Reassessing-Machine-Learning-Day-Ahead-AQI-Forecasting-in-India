@@ -1,0 +1,7 @@
+,R2,R2,MAE,MAE,exact_acc,exact_acc,within_1,within_1,macro_F1,macro_F1,skill_vs_pers,skill_vs_pers
+split,chronological,random,chronological,random,chronological,random,chronological,random,chronological,random,chronological,random
+setup,,,,,,,,,,,,
+A. same-day pollutants (literature),0.996,0.987,3.93,3.784,0.953,0.961,1.0,0.998,0.883,0.907,0.976,0.924
+B. weather only,0.791,0.843,42.388,35.717,0.57,0.634,0.974,0.985,0.478,0.525,-0.212,0.135
+C. day-ahead forecast,0.878,0.866,29.737,31.425,0.687,0.662,0.994,0.987,0.565,0.543,0.294,0.264
+Persistence (today = tomorrow),0.827,0.816,34.686,36.123,0.646,0.633,0.971,0.975,0.511,0.537,0.0,0.0

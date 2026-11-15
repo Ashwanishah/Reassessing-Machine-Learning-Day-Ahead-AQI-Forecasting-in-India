@@ -1,0 +1,2 @@
+station,lat,lon,ring,distance_km,pollutants_used,dropped,test_days,persistence_acc,persistence_F1,leaky_acc,honest_acc,own_acc,own_F1,own_PM25_skill,zero_acc,zero_F1,zero_PM25_skill,few1_acc,few1_F1,few1_PM25_skill,few2_acc,few2_F1,few2_PM25_skill,few3_acc,few3_F1,few3_PM25_skill
+bhubaneswar_PATIA,20.358824,85.833267,Ring 2 (> 1000 km),1263.2,"PM2.5, PM10, NO2, SO2, OZONE","NH3, CO",344,0.692,0.613,0.942,0.651,0.728,0.628,0.028,0.372,0.275,-7.528,0.491,0.416,-3.386,0.506,0.425,-2.722,0.657,0.579,-0.762

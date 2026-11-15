@@ -1,0 +1,4 @@
+,days,exact_acc,within_1,macro_F1,AQI_MAE,recall_Poor+
+Persistence,338.0,0.68,0.979,0.628,32.0,0.891
+Local,338.0,0.675,0.991,0.559,29.2,0.891
+Transfer,338.0,0.698,0.988,0.488,31.9,0.877
